@@ -4,9 +4,10 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 public class JsoupTitleParser {
+    private static final String TITLE = "div.attorneyProfilePosition";
 
     public static String resolveTitle(String html) {
-        Document doc = Jsoup.parse(html);
-       return doc.select("div#containerPageTitle >h1").text();
+        Document document = Jsoup.parse(html);
+        return document.select(TITLE).text();
     }
 }

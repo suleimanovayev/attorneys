@@ -4,9 +4,11 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 public class JsoupEducationParser {
+    private static final String EDUCATION = ".attorneyProfileNarrative p:has(strong:contains(Education:)) + ul li";
 
-    public static String resolveEducation(String html) {
+    public static String[] resolveEducation(String html) {
         Document document = Jsoup.parse(html);
-        return "";
+        return document.select(EDUCATION)
+                .text().split(" ");
     }
 }

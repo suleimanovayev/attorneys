@@ -1,22 +1,21 @@
 package gflegal.parser;
 
+import gflegal.HtmlConverter;
 import gflegal.model.Attorney;
-import org.jsoup.Jsoup;
 
-import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class JsoupParserHelper {
 
-    public static Attorney parse(String html) {
-        String title = JsoupTitleParser.resolveTitle(html);
-        String biography = JsoupBiographyParser.resolveBiography(html);
-        String[] locations = JsoupLocationParser.resolveLocation(html);
-        String email = JsoupEmailParser.resolveEmail(html);
-        String[] phones = JsoupPhonesParser.resolvePhone(html);
-        String fullBiography = JsoupFullBiographyParser.resolveFullBiography(html);
-        String[] Education= JsoupRawEducationParser.resolveRawEducation(html);
-        String[] barAdmissions = JsoupBarAdmissionParser.resolveBarAdmissions(html);
-        String name = JsoupNameParser.resolveName(html);
-        return new Attorney();
+    public List<Attorney> parseAllLinks(List<String> allAttorneyLinks) {
+        List<Attorney> allAttorneys = new ArrayList<>();
+        for (String link : allAttorneyLinks) {
+            String html = HtmlConverter.getHtmlPage(link);
+            Attorney attorney = JsoupParserAttorney.parseAttorney(html);
+            allAttorneys.add(attorney);
+        }
+        return allAttorneys;
     }
 }

@@ -1,4 +1,4 @@
-package gflegal.model;
+package attorneys.sites.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 @Data
 @NoArgsConstructor
-public class Attorney {
+public abstract class Attorney {
     private String biography;
     private String title;
     private String[] locations;

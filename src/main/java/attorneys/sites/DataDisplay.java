@@ -1,6 +1,6 @@
-package gflegal;
+package attorneys.sites;
 
-import gflegal.model.Attorney;
+import attorneys.sites.model.Attorney;
 
 import java.util.List;
 

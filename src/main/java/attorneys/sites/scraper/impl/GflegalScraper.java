@@ -1,5 +1,6 @@
-package gflegal;
+package attorneys.sites.scraper.impl;
 
+import attorneys.sites.constant.GflegalConstants;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import org.apache.commons.lang3.StringUtils;
@@ -7,10 +8,10 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class JsoupScraper {
+public class GflegalScraper {
 
-    public static List<String> findAttorneysLinks(Document document) {
-        Elements allAttorneys = document.select("ul >li[itemtype='http://schema.org/Person'] >a");
+    public List<String> findAllAttorneysLinks(Document document) {
+        Elements allAttorneys = document.select(GflegalConstants.ALL_ATTORNEYS_LINKS);
         String baseUri = document.baseUri();
         return allAttorneys
                 .stream()

@@ -1,5 +1,7 @@
 package gflegal;
 
+import gflegal.parser.JsoupParserHelper;
+import gflegal.parser.JsoupTitleParser;
 import org.jsoup.nodes.Document;
 
 import java.io.IOException;
@@ -11,6 +13,10 @@ public class Main {
         Document document = JsoupLoader.getPage(url);
         JsoupScraper scraper = new JsoupScraper();
        List<String> allAttorneyLinks = scraper.findAttorneysLinks(document);
-       allAttorneyLinks.forEach(System.out::println);
+
+        for (String link : allAttorneyLinks) {
+            String html = HtmlConverter.getHtmlPage(link);
+            System.out.printf(JsoupTitleParser.resolveTitle(html));
+        }
     }
 }

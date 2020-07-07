@@ -1,16 +1,14 @@
 package gflegal;
 
-import lombok.extern.log4j.Log4j;
 import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 
 import java.io.IOException;
 
-public class JsoupLoader {
+public class HtmlConverter {
 
-    public static Document getPage(String url) {
+    public static String getHtmlPage(String link) {
         try {
-            return Jsoup.connect(url).get();
+            return Jsoup.connect(link).get().html();
         } catch (IOException e) {
             System.out.printf("log4j");
         }

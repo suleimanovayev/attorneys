@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class JsoupScraper {
 
-    public List<String> findAttorneysLinks(Document document) {
+    public static List<String> findAttorneysLinks(Document document) {
         Elements allAttorneys = document.select("ul >li[itemtype='http://schema.org/Person'] >a");
         String baseUri = document.baseUri();
         return allAttorneys

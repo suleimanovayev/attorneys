@@ -1,10 +1,10 @@
-package gflegal.parser;
+package gflegal.parser.helper;
 
 import gflegal.HtmlConverter;
 import gflegal.model.Attorney;
+import gflegal.parser.helper.JsoupParserAttorney;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class JsoupParserHelper {

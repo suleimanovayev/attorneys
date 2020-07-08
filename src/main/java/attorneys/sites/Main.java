@@ -9,11 +9,6 @@ import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 public class Main {
-    private static List<String> urls = Arrays.asList(
-            GflegalConstants.GFLEGAL_URL,
-            HellSellConstants.HELL_SELL_URL
-    );
-
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         new SitesRunner().runSites();
     }

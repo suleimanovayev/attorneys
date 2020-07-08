@@ -1,4 +1,4 @@
-package attorneys.sites.constant;
+package attorneys.sites.gflegal.constant;
 
 public class GflegalConstants {
     public static final String GFLEGAL_URL = "https://www.gflegal.com/Attorneys";

@@ -1,10 +1,13 @@
 package attorneys.sites.hellsell;
 
-import attorneys.sites.model.Attorney;
-import attorneys.sites.service.AttorneyParser;
+import attorneys.sites.HtmlConverter;
+import attorneys.sites.hellsell.constant.HellSellConstants;
 import attorneys.sites.service.ScraperService;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class HellSellScrapperService extends ScraperService {
 
@@ -13,17 +16,10 @@ public class HellSellScrapperService extends ScraperService {
     }
 
     @Override
-    public List<Attorney> loadAttorneys(String siteUrl) {
-        return null;
-    }
-
-    @Override
-    public Attorney getAttorney(String html) {
-        return null;
-    }
-
-    @Override
     public List<String> findAllAttorneysLinks(String linkOfSite) {
-        return null;
+        String html = HtmlConverter.getHtmlPage(linkOfSite);
+        Document document = Jsoup.parse(html);
+        return document.select(HellSellConstants.ALL_ATTORNEY_LINKS).stream().map(attorney -> attorney.attr("href"))
+                .collect(Collectors.toList());
     }
 }

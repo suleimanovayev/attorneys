@@ -1,7 +1,7 @@
 package attorneys.sites.factory;
 
-import attorneys.sites.constant.GflegalConstants;
-import attorneys.sites.constant.HellSellConstants;
+import attorneys.sites.gflegal.constant.GflegalConstants;
+import attorneys.sites.hellsell.constant.HellSellConstants;
 import attorneys.sites.gflegal.GflegalScraperService;
 import attorneys.sites.hellsell.HellSellScrapperService;
 import attorneys.sites.service.ScraperService;

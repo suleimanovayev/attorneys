@@ -1,11 +1,10 @@
-package attorneys.sites;
+package attorneys.sites.thread;
 
-import attorneys.sites.constant.GflegalConstants;
-import attorneys.sites.constant.HellSellConstants;
+import attorneys.sites.gflegal.constant.GflegalConstants;
+import attorneys.sites.hellsell.constant.HellSellConstants;
 import attorneys.sites.factory.ScraperServiceFactory;
 import attorneys.sites.model.Attorney;
 import attorneys.sites.service.ScraperService;
-import attorneys.sites.thread.SiteThread;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,15 +20,15 @@ public class SitesRunner {
             HellSellConstants.HELL_SELL_URL
     );
 
-    public static void runSites() throws InterruptedException, ExecutionException {
+    public void runSites() throws InterruptedException, ExecutionException {
         ExecutorService executorService = Executors
                 .newFixedThreadPool(urls.size());
 
         List<List<Attorney>> attorneys = new ArrayList<>();
         for (String url : urls) {
-            ScraperService service = ScraperServiceFactory.getScrapperServiceInstance(url);
             Future<List<Attorney>> future = executorService.submit(new SiteThread(url));
-            attorneys.add(future.get());
+            List<Attorney> f = future.get();
+            attorneys.add(f);
         }
         executorService.shutdown();
     }

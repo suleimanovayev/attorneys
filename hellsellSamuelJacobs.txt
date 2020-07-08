@@ -1,0 +1,489 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+			  Samuel Jacobs		</title>
+  <link rel="icon" href="https://www.helsell.com/wp-content/themes/helsell-4.1.0/assets/img/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.helsell.com/wp-content/themes/helsell-4.1.0/assets/img/icons/apple-touch-icon-144x144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.helsell.com/wp-content/themes/helsell-4.1.0/assets/img/icons/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.helsell.com/wp-content/themes/helsell-4.1.0/assets/img/icons/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="https://www.helsell.com/wp-content/themes/helsell-4.1.0/assets/img/icons/apple-touch-icon-precomposed.png">
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//s.w.org"> <!-- This site uses the Google Analytics by MonsterInsights plugin v6.2.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+  <script type="text/javascript" data-cfasync="false">
+		var disableStr = 'ga-disable-UA-12713701-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-12713701-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('set', 'anonymizeIp', true);
+	__gaTracker('send','pageview');
+</script> <!-- / Google Analytics by MonsterInsights -->
+  <link rel="stylesheet" id="cresta-social-crestafont-css" href="https://www.helsell.com/wp-content/plugins/cresta-social-share-counter/css/csscfont.css" type="text/css" media="all">
+  <link rel="stylesheet" id="cresta-social-wp-style-css" href="https://www.helsell.com/wp-content/plugins/cresta-social-share-counter/css/cresta-wp-css.css" type="text/css" media="all">
+  <link rel="stylesheet" id="cresta-social-googlefonts-css" href="//fonts.googleapis.com/css?family=Noto+Sans:400,700" type="text/css" media="all">
+  <link rel="stylesheet" id="main-stylesheet-css" href="https://www.helsell.com/wp-content/themes/helsell-4.1.0/css/foundation.css" type="text/css" media="all">
+  <script type="text/javascript">
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"doc,exe,js,pdf,ppt,tgz,zip,xls","inbound_paths":"","home_url":"https:\/\/www.helsell.com","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]> */
+</script>
+  <script type="text/javascript" src="https://www.helsell.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://www.helsell.com/wp-content/themes/helsell-4.1.0/js/vendor/modernizr.js"></script>
+  <script type="text/javascript" src="https://www.helsell.com/wp-content/themes/helsell-4.1.0/js/vendor/fastclick.js"></script>
+  <script type="text/javascript" src="https://www.helsell.com/wp-content/themes/helsell-4.1.0/js/custom.js"></script>
+  <link rel="https://api.w.org/" href="https://www.helsell.com/wp-json/">
+  <link rel="alternate" type="application/json+oembed" href="https://www.helsell.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.helsell.com%2Fhelsell-attorney%2Fsamuel-jacobs%2F">
+  <link rel="alternate" type="text/xml+oembed" href="https://www.helsell.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.helsell.com%2Fhelsell-attorney%2Fsamuel-jacobs%2F&amp;format=xml">
+  <style type="text/css"></style>
+  <meta property="og:title" content="Samuel Jacobs">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.helsell.com/helsell-attorney/samuel-jacobs/">
+  <meta property="og:description" content="Professional Experience Sam Jacobs’ practice focuses on real estate and land use law with an emphasis on residential, mixed-use and infill development issues. &nbsp; He represents developers, housing cooperatives including floating home communities, condominiums and homeowner associations on matters of land use and municipal law matters. &nbsp;Additionally, he advises and represents clients on general real […]">
+  <meta property="og:site_name" content="Helsell Fetterman">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:image" content="https://www.helsell.com/wp-content/uploads/2013/12/Samuel-Jacobs-Web.jpg">
+  <style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+  <style type="text/css" id="wp-custom-css">
+			.top-bar-section .has-dropdown.two_cols > .sub-menu{
+column-count:2;
+-webkit-column-count:2;
+-moz-column-count:2;
+}
+
+.top-bar .sub-menu {
+    background-color: #375b7f;
+}
+
+#home-header h1 a {
+       background-image: url(/wp-content/themes/helsell-4.1.0/assets/img/HelsellFetterman_vertical_logo.svg);
+}
+
+#home-header a {
+       background-image: url(/wp-content/themes/helsell-4.1.0/assets/img/HelsellFetterman_vertical_logo.svg);
+}
+
+#logo-header h1 a {
+       background-image: url(/wp-content/themes/helsell-4.1.0/assets/img/HelsellFetterman_vertical_logo.svg);
+}		</style>
+ </head>
+ <body class="attorney-template-default single single-attorney postid-1854">
+  <div id="page-wrap">
+   <div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
+     <nav class="tab-bar">
+      <section class="right-small"> <a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
+      </section>
+      <section class="left tab-bar-section">
+       <h1> <a href="https://www.helsell.com">Helsell Fetterman</a> </h1>
+      </section>
+     </nav>
+     <aside class="right-off-canvas-menu hide-for-print" aria-hidden="true">
+      <ul id="menu-main-menu" class="off-canvas-list">
+       <li id="menu-item-2653" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-submenu menu-item-2653"><a href="https://www.helsell.com/about-us/">About Us</a>
+        <ul class="right-submenu">
+         <li class="back"><a href="#">Back</a></li>
+         <li id="menu-item-2732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2732"><a href="https://www.helsell.com/about-us/">About Helsell</a></li>
+         <li id="menu-item-2731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2731"><a href="https://www.helsell.com/about-us/lawpact-member/">LawPact Member</a></li>
+        </ul> </li>
+       <li id="menu-item-2654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-submenu menu-item-2654"><a href="https://www.helsell.com/our-team/">Our Team</a>
+        <ul class="right-submenu">
+         <li class="back"><a href="#">Back</a></li>
+         <li id="menu-item-2733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2733"><a href="https://www.helsell.com/our-team/">Attorneys</a></li>
+         <li id="menu-item-2736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2736"><a href="https://www.helsell.com/our-team/emeritus/">Emeritus</a></li>
+         <li id="menu-item-2734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2734"><a href="https://www.helsell.com/our-team/legal-support/">Legal Support</a></li>
+         <li id="menu-item-2735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2735"><a href="https://www.helsell.com/our-team/administration/">Administration</a></li>
+        </ul> </li>
+       <li id="menu-item-4119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4119"><a href="https://www.helsell.com/covid-19/">COVID-19 Resources</a></li>
+       <li id="menu-item-2655" class="two_cols menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-submenu menu-item-2655"><a href="https://www.helsell.com/practice-areas/">Practice Areas</a>
+        <ul class="right-submenu">
+         <li class="back"><a href="#">Back</a></li>
+         <li id="menu-item-2742" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2742"><a href="https://www.helsell.com/practice-areas/banking-and-finance/">Banking and Finance</a></li>
+         <li id="menu-item-2743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2743"><a href="https://www.helsell.com/practice-areas/business/">Business Law</a></li>
+         <li id="menu-item-2744" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2744"><a href="https://www.helsell.com/practice-areas/divorce-and-family-law/">Divorce and Family Law</a></li>
+         <li id="menu-item-2745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2745"><a href="https://www.helsell.com/practice-areas/education/">Education</a></li>
+         <li id="menu-item-2746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2746"><a href="https://www.helsell.com/practice-areas/elder-law/">Elder Law</a></li>
+         <li id="menu-item-2747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2747"><a href="https://www.helsell.com/practice-areas/employment/">Employment and Labor</a></li>
+         <li id="menu-item-2748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2748"><a href="https://www.helsell.com/practice-areas/environmental/">Environmental</a></li>
+         <li id="menu-item-2749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2749"><a href="https://www.helsell.com/practice-areas/estate-planning-and-probate/">Estate Planning and Probate</a></li>
+         <li id="menu-item-2750" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2750"><a href="https://www.helsell.com/practice-areas/health-care/">Health Care</a></li>
+         <li id="menu-item-3879" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3879"><a href="https://www.helsell.com/practice-areas/immigration/">Immigration</a></li>
+         <li id="menu-item-2908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-submenu menu-item-2908"><a href="https://www.helsell.com/practice-areas/intellectual-property/">Intellectual Property</a>
+          <ul class="right-submenu">
+           <li class="back"><a href="#">Back</a></li>
+           <li id="menu-item-3097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3097"><a href="https://www.helsell.com/practice-areas/intellectual-property/trademark/">Trademark</a></li>
+          </ul> </li>
+         <li id="menu-item-2751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2751"><a href="https://www.helsell.com/practice-areas/insurance-coverage/">Insurance Coverage</a></li>
+         <li id="menu-item-2752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-submenu menu-item-2752"><a href="https://www.helsell.com/practice-areas/insurance-defense/">Insurance Defense</a>
+          <ul class="right-submenu">
+           <li class="back"><a href="#">Back</a></li>
+           <li id="menu-item-2754" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2754"><a href="https://www.helsell.com/practice-areas/insurance-defense/construction-defects/">Construction Defects</a></li>
+           <li id="menu-item-2755" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2755"><a href="https://www.helsell.com/practice-areas/insurance-defense/personal-injury/">Personal Injury</a></li>
+           <li id="menu-item-2756" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2756"><a href="https://www.helsell.com/practice-areas/insurance-defense/professional-liability/">Professional Liability</a></li>
+          </ul> </li>
+         <li id="menu-item-3854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3854"><a href="https://www.helsell.com/practice-areas/land-use/">Land Use</a></li>
+         <li id="menu-item-2753" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-submenu menu-item-2753"><a href="https://www.helsell.com/practice-areas/litigation/">Litigation</a>
+          <ul class="right-submenu">
+           <li class="back"><a href="#">Back</a></li>
+           <li id="menu-item-2757" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2757"><a href="https://www.helsell.com/practice-areas/litigation/admiralty-and-maritime/">Admiralty and Maritime</a></li>
+           <li id="menu-item-2758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2758"><a href="https://www.helsell.com/practice-areas/litigation/commercial-disputes-and-class-actions/">Commercial Disputes</a></li>
+           <li id="menu-item-2759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2759"><a href="https://www.helsell.com/practice-areas/litigation/products-liability-and-other-personal-injury/">Products Liability and Other Personal Injury</a></li>
+           <li id="menu-item-2760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2760"><a href="https://www.helsell.com/practice-areas/litigation/trials-and-appeals/">Trials and Appeals</a></li>
+          </ul> </li>
+         <li id="menu-item-3568" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3568"><a href="https://www.helsell.com/practice-areas/real-estate-litigation/">Real Estate Litigation</a></li>
+         <li id="menu-item-2762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2762"><a href="https://www.helsell.com/practice-areas/real-estate-transactions/">Real Estate Transactions</a></li>
+         <li id="menu-item-2763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2763"><a href="https://www.helsell.com/practice-areas/religious-and-social-services/">Religious and Social Services</a></li>
+         <li id="menu-item-2764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2764"><a href="https://www.helsell.com/practice-areas/taxation/">Taxation</a></li>
+         <li id="menu-item-2761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2761"><a href="https://www.helsell.com/practice-areas/trust-and-estate/">Trust and Estate Litigation</a></li>
+         <li id="menu-item-3099" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3099"><a href="https://www.helsell.com/practice-areas/beverage-law/">Wine, Beer, Spirits and Cider</a></li>
+        </ul> </li>
+       <li id="menu-item-2656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2656"><a href="https://www.helsell.com/diversity/">Diversity</a></li>
+       <li id="menu-item-2657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2657"><a href="https://www.helsell.com/scholarship/">Students</a></li>
+       <li id="menu-item-2701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-submenu menu-item-2701"><a href="https://www.helsell.com/news/">News</a>
+        <ul class="right-submenu">
+         <li class="back"><a href="#">Back</a></li>
+         <li id="menu-item-2737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2737"><a href="https://www.helsell.com/news/">Recent News</a></li>
+         <li id="menu-item-2738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2738"><a href="https://www.helsell.com/news/articles-case-studies/">Articles &amp; Case Studies</a></li>
+         <li id="menu-item-2739" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2739"><a href="https://www.helsell.com/news/faqs/">FAQs</a></li>
+         <li id="menu-item-2740" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2740"><a href="https://www.helsell.com/news/newsletters/">Newsletters</a></li>
+         <li id="menu-item-2741" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2741"><a href="https://www.helsell.com/news/news-archive/">News Archive</a></li>
+        </ul> </li>
+       <li id="menu-item-2659" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2659"><a href="https://www.helsell.com/blog/">Blog</a></li>
+       <li id="menu-item-2660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2660"><a href="https://www.helsell.com/join-us/">Join Us</a></li>
+       <li id="menu-item-2661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2661"><a href="https://www.helsell.com/contact/">Contact</a></li>
+       <li id="menu-item-3192" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3192"><a href="https://secure.lawpay.com/pages/helsell/operating">Pay</a></li>
+      </ul>
+     </aside>
+     <div class="fixed" id="main-top-navigation-container">
+      <div class="top-bar-container contain-to-grid" id="main-navigation-container">
+       <div class="row">
+        <div class="large-11 large-centered xlarge-9 columns">
+         <nav class="top-bar" data-topbar role="navigation">
+          <ul class="title-area">
+           <li class="name"> </li>
+          </ul>
+          <section class="top-bar-section">
+           <ul id="menu-main-menu-1" class="top-bar-menu">
+            <li class="divider"></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-2653"><a href="https://www.helsell.com/about-us/">About Us</a>
+             <ul class="sub-menu dropdown">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2732"><a href="https://www.helsell.com/about-us/">About Helsell</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2731"><a href="https://www.helsell.com/about-us/lawpact-member/">LawPact Member</a></li>
+             </ul> </li>
+            <li class="divider"></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-2654"><a href="https://www.helsell.com/our-team/">Our Team</a>
+             <ul class="sub-menu dropdown">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2733"><a href="https://www.helsell.com/our-team/">Attorneys</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2736"><a href="https://www.helsell.com/our-team/emeritus/">Emeritus</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2734"><a href="https://www.helsell.com/our-team/legal-support/">Legal Support</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2735"><a href="https://www.helsell.com/our-team/administration/">Administration</a></li>
+             </ul> </li>
+            <li class="divider"></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4119"><a href="https://www.helsell.com/covid-19/">COVID-19 Resources</a></li>
+            <li class="divider"></li>
+            <li class="two_cols menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-2655"><a href="https://www.helsell.com/practice-areas/">Practice Areas</a>
+             <ul class="sub-menu dropdown">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2742"><a href="https://www.helsell.com/practice-areas/banking-and-finance/">Banking and Finance</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2743"><a href="https://www.helsell.com/practice-areas/business/">Business Law</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2744"><a href="https://www.helsell.com/practice-areas/divorce-and-family-law/">Divorce and Family Law</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2745"><a href="https://www.helsell.com/practice-areas/education/">Education</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2746"><a href="https://www.helsell.com/practice-areas/elder-law/">Elder Law</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2747"><a href="https://www.helsell.com/practice-areas/employment/">Employment and Labor</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2748"><a href="https://www.helsell.com/practice-areas/environmental/">Environmental</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2749"><a href="https://www.helsell.com/practice-areas/estate-planning-and-probate/">Estate Planning and Probate</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2750"><a href="https://www.helsell.com/practice-areas/health-care/">Health Care</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3879"><a href="https://www.helsell.com/practice-areas/immigration/">Immigration</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-2908"><a href="https://www.helsell.com/practice-areas/intellectual-property/">Intellectual Property</a>
+               <ul class="sub-menu dropdown">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3097"><a href="https://www.helsell.com/practice-areas/intellectual-property/trademark/">Trademark</a></li>
+               </ul> </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2751"><a href="https://www.helsell.com/practice-areas/insurance-coverage/">Insurance Coverage</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-2752"><a href="https://www.helsell.com/practice-areas/insurance-defense/">Insurance Defense</a>
+               <ul class="sub-menu dropdown">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2754"><a href="https://www.helsell.com/practice-areas/insurance-defense/construction-defects/">Construction Defects</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2755"><a href="https://www.helsell.com/practice-areas/insurance-defense/personal-injury/">Personal Injury</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2756"><a href="https://www.helsell.com/practice-areas/insurance-defense/professional-liability/">Professional Liability</a></li>
+               </ul> </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3854"><a href="https://www.helsell.com/practice-areas/land-use/">Land Use</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-2753"><a href="https://www.helsell.com/practice-areas/litigation/">Litigation</a>
+               <ul class="sub-menu dropdown">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2757"><a href="https://www.helsell.com/practice-areas/litigation/admiralty-and-maritime/">Admiralty and Maritime</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2758"><a href="https://www.helsell.com/practice-areas/litigation/commercial-disputes-and-class-actions/">Commercial Disputes</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2759"><a href="https://www.helsell.com/practice-areas/litigation/products-liability-and-other-personal-injury/">Products Liability and Other Personal Injury</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2760"><a href="https://www.helsell.com/practice-areas/litigation/trials-and-appeals/">Trials and Appeals</a></li>
+               </ul> </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3568"><a href="https://www.helsell.com/practice-areas/real-estate-litigation/">Real Estate Litigation</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2762"><a href="https://www.helsell.com/practice-areas/real-estate-transactions/">Real Estate Transactions</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2763"><a href="https://www.helsell.com/practice-areas/religious-and-social-services/">Religious and Social Services</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2764"><a href="https://www.helsell.com/practice-areas/taxation/">Taxation</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2761"><a href="https://www.helsell.com/practice-areas/trust-and-estate/">Trust and Estate Litigation</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3099"><a href="https://www.helsell.com/practice-areas/beverage-law/">Wine, Beer, Spirits and Cider</a></li>
+             </ul> </li>
+            <li class="divider"></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2656"><a href="https://www.helsell.com/diversity/">Diversity</a></li>
+            <li class="divider"></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2657"><a href="https://www.helsell.com/scholarship/">Students</a></li>
+            <li class="divider"></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-2701"><a href="https://www.helsell.com/news/">News</a>
+             <ul class="sub-menu dropdown">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2737"><a href="https://www.helsell.com/news/">Recent News</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2738"><a href="https://www.helsell.com/news/articles-case-studies/">Articles &amp; Case Studies</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2739"><a href="https://www.helsell.com/news/faqs/">FAQs</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2740"><a href="https://www.helsell.com/news/newsletters/">Newsletters</a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2741"><a href="https://www.helsell.com/news/news-archive/">News Archive</a></li>
+             </ul> </li>
+            <li class="divider"></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2659"><a href="https://www.helsell.com/blog/">Blog</a></li>
+            <li class="divider"></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2660"><a href="https://www.helsell.com/join-us/">Join Us</a></li>
+            <li class="divider"></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2661"><a href="https://www.helsell.com/contact/">Contact</a></li>
+            <li class="divider"></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3192"><a href="https://secure.lawpay.com/pages/helsell/operating">Pay</a></li>
+           </ul>
+          </section>
+         </nav>
+        </div><!-- close .columns -->
+       </div><!-- close .row -->
+      </div>
+     </div><!-- /.fixed -->
+     <section id="logo-header">
+      <div class="row">
+       <div class="large-11 large-centered xlarge-9 columns">
+        <div class="row">
+         <div class="large-4 columns">
+          <h1 id="site-logo"><a href="https://www.helsell.com">Helsell Fetterman</a></h1>
+         </div><!-- close .columns -->
+         <div class="large-8 columns">
+          <p class="tagline">At Helsell Fetterman, <strong>we are committed to your cause.</strong></p>
+         </div><!-- close .columns -->
+        </div><!-- close .row -->
+       </div><!-- close .columns -->
+      </div><!-- close .row -->
+     </section>
+     <section id="main-content" class="container" role="document">
+      <section id="post-header" class="spacer">
+       <div class="row text-center large-text-left ">
+        <div class="large-11 large-centered xlarge-8 columns">
+         <header>
+          <div class="row hide-for-print">
+           <div class="small-6 small-centered columns">
+            <img width="300" height="395" src="https://www.helsell.com/wp-content/uploads/2013/12/Samuel-Jacobs-Web.jpg" class="post-image hide-for-large-up wp-post-image" alt="" srcset="https://www.helsell.com/wp-content/uploads/2013/12/Samuel-Jacobs-Web.jpg 300w, https://www.helsell.com/wp-content/uploads/2013/12/Samuel-Jacobs-Web-228x300.jpg 228w" sizes="(max-width: 300px) 100vw, 300px">
+           </div><!-- close .columns -->
+          </div><!-- close .row -->
+          <div class="row">
+           <div class="large-9 columns">
+            <h1 class="entry-title">Samuel Jacobs <small>Partner</small> </h1>
+            <p class="meta"> (206) 689-2121 &nbsp;·&nbsp; <a href="mailto:sjacobs@helsell.com" title="Email Samuel Jacobs" class="confidentialEmail">sjacobs@helsell.com</a> &nbsp;·&nbsp; <a href="https://www.helsell.com/wp-content/uploads/Samuel-Jacobs.vcf" title="vCard for Samuel Jacobs">vCard</a> &nbsp;·&nbsp; <a href="http://www.avvo.com/attorneys/98154-wa-samuel-jacobs-8861.html" title="View Samuel Jacobs's Avvo Rating" target="_blank">Avvo Rating</a> </p>
+           </div><!-- close .columns -->
+           <div class="large-3 columns show-for-large-up hide-for-print text-right"> <a href="javascript:window.print()" class="print"><i class="fa fa-3x fa-print"></i></a>
+           </div><!-- close .columns -->
+          </div><!-- close .row -->
+         </header>
+        </div><!-- close .columns -->
+       </div><!-- close .row -->
+      </section>
+      <section class="spacer">
+       <div class="row">
+        <div class="large-11 large-centered xlarge-8 columns" role="main">
+         <div class="row">
+          <div class="large-7 columns">
+           <article class="post-1854 attorney type-attorney status-publish has-post-thumbnail hentry" id="post-1854">
+            <div class="entry-content">
+             <div id="english-language-content">
+              <h2>Professional Experience</h2>
+              <p>Sam Jacobs’ practice focuses on real estate and land use law with an emphasis on residential, mixed-use and infill development issues. &nbsp; He represents developers, housing cooperatives including floating home communities, condominiums and homeowner associations on matters of land use and municipal law matters. &nbsp;Additionally, he advises and represents clients on general real estate matters including negotiating and documenting real estate transactions.</p>
+              <p>Prior to his private practice, Sam was an attorney within the City of Kirkland’s Department of Planning and Community Development. &nbsp;There he served as primary author of new zoning code, developed and drafted other land use regulatory codes and ordinances, advised the Planning Staff, Planning Commission, Community Council and City Council on land use and environmental law issues.</p>
+              <h2>Community Involvement</h2>
+              <ul>
+               <li>Board member of Hilltop House, 2007 – Present</li>
+               <li>Member of Leadership Committee of Seattle Council, Master Builders Association, 2009 – Present</li>
+               <li>Board Member and Past President of Capital Hill Housing Improvement Program, 1982 – 2009</li>
+               <li>Member and Chairperson (1986) of the Legal Aid Committee, Washington State Bar Association, 1984 – 1986</li>
+              </ul>
+              <h2>Admitted to Practice</h2>
+              <ul>
+               <li>D.C. Bar, 1976</li>
+               <li>Washington State Bar, 1978</li>
+              </ul>
+             </div>
+             <h2>Content by Samuel Jacobs</h2>
+             <ul>
+              <li><strong><a href="https://www.helsell.com/faq/the-new-washington-uniform-common-interest-ownership-act/">The New Washington Uniform Common Interest Ownership Act</a></strong><br><span class="meta"><time class="updated" datetime="">June 25, 2018</time></span></li>
+             </ul>
+            </div><!-- close .entry-content -->
+           </article>
+           <br>
+           <hr> <!--www.crestaproject.com Social Button in Content Start-->
+           <div id="crestashareiconincontent" class="cresta-share-icon second_style">
+            <div class="sbutton  facebook-cresta-share" id="facebook-cresta-c">
+             <a rel="nofollow" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.helsell.com%2Fhelsell-attorney%2Fsamuel-jacobs%2F&amp;t=Samuel+Jacobs" title="Share to Facebook" onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="cs c-icon-cresta-facebook"></i></a>
+            </div>
+            <div class="sbutton  twitter-cresta-share" id="twitter-cresta-c">
+             <a rel="nofollow" href="https://twitter.com/share?text=Samuel+Jacobs&amp;url=https%3A%2F%2Fwww.helsell.com%2Fhelsell-attorney%2Fsamuel-jacobs%2F" title="Share to Twitter" onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="cs c-icon-cresta-twitter"></i></a>
+            </div>
+            <div class="sbutton  linkedin-cresta-share" id="linkedin-cresta-c">
+             <a rel="nofollow" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.helsell.com%2Fhelsell-attorney%2Fsamuel-jacobs%2F&amp;title=Samuel+Jacobs&amp;source=https://www.helsell.com/" title="Share to LinkedIn" onclick="window.open(this.href,'targetWindow','toolbars=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=320,left=200,top=200');return false;"><i class="cs c-icon-cresta-linkedin"></i></a>
+            </div>
+            <div style="clear: both;"></div>
+           </div>
+           <div style="clear: both;"></div><!--www.crestaproject.com Social Button in Content End-->
+          </div><!-- close .columns -->
+          <div class="large-4 columns">
+           <img width="300" height="395" src="https://www.helsell.com/wp-content/uploads/2013/12/Samuel-Jacobs-Web.jpg" class="attorney-image show-for-large-up wp-post-image" alt="" srcset="https://www.helsell.com/wp-content/uploads/2013/12/Samuel-Jacobs-Web.jpg 300w, https://www.helsell.com/wp-content/uploads/2013/12/Samuel-Jacobs-Web-228x300.jpg 228w" sizes="(max-width: 300px) 100vw, 300px">
+           <div id="sidebar">
+            <article class="widget">
+             <h4>Practice Areas</h4>
+             <ul>
+              <li><a href="index.php?p=151" title="Environmental">Environmental</a></li>
+              <li><a href="index.php?p=963" title="Real Estate Transactions">Real Estate Transactions</a></li>
+              <br>
+             </ul>
+            </article>
+            <article class="widget">
+             <h4>Legal Secretary</h4>
+             <p><strong>Gennifer Holland</strong><br> (206) 689-2165<br> <a href="mailto:gholland@helsell.com" title="Email Gennifer Holland" class="confidentialEmail">gholland@helsell.com</a> </p>
+             <br>
+            </article>
+            <article class="widget">
+             <h4>Attorney Education</h4>
+             <ul>
+              <li style="border-bottom: 1px solid #e1e1e1;padding: 4px 0;">Antioch School of Law (J.D., 1976)</li>
+              <li style="border-bottom: 1px solid #e1e1e1;padding: 4px 0;">Emory University (B.A., 1971)</li>
+             </ul>
+            </article>
+            <div class="hide-for-print"> <!-- 	AVVO Badge -->
+             <script type="text/javascript" src="http://www.avvo.com/assets/badges-v2.js"></script>
+             <div class="avvo_badge" data-type="rating" data-specialty="116" data-target="http://www.avvo.com/professional_badges/8861">
+              <div class="avvo_content"> <a href="http://www.avvo.com/attorneys/98154-wa-samuel-jacobs-8861.html?utm_campaign=avvo_rating&amp;utm_content=8861&amp;utm_medium=avvo_badge&amp;utm_source=avvo" rel="me" target="_blank">AVVO Rating</a>
+              </div>
+             </div>
+            </div>
+           </div> <a href="https://www.bestlawyers.com/lawyers/samuel-jacobs/179853" target="_blank"><img src="https://www.helsell.com/wp-content/themes/helsell-4.1.0/assets/img/badge-best-lawyers.jpg" alt="Best Lawyers Badge"></a>
+          </div><!-- close .columns -->
+         </div><!-- close .row -->
+        </div><!-- close .columns -->
+       </div><!-- close .row -->
+      </section>
+      <section id="post-nav" class="spacer hide-for-print">
+       <div class="row">
+        <div class="xlarge-8 xlarge-centered columns">
+         <div class="row">
+          <div class="large-4 columns show-for-large-up"> <a href="https://www.helsell.com/helsell-attorney/laura-hoexter/" rel="prev"><h5 class="grey">Previous Attorney</h5><h3>Laura Hoexter</h3></a>&nbsp;
+          </div><!-- close .columns -->
+          <div class="large-4 columns text-center"> <a href="https://www.helsell.com/our-team" class="button round">Back to all Attorneys</a>
+          </div><!-- close .columns -->
+          <div class="large-4 columns show-for-large-up large-text-right"> <a href="https://www.helsell.com/helsell-attorney/scott-johnson/" rel="next"><h5 class="grey">Next Attorney</h5><h3>Scott Johnson</h3></a>&nbsp;
+          </div><!-- close .columns -->
+         </div><!-- close .row -->
+        </div><!-- close .columns -->
+       </div><!-- close .row -->
+      </section>
+     </section>
+     <footer id="footer" class="hide-for-print">
+      <div class="row">
+       <div class="large-11 large-centered xlarge-9 columns">
+        <div class="row">
+         <div class="large-3 columns">
+          <h5>Connect with Helsell</h5>
+          <p>1001 Fourth Avenue, Suite 4200<br> Seattle, WA 98154</p>
+          <p><span class="phone">(206) 292-1144</span></p> <a href="https://www.helsell.com/contact" class="button small round">Contact Us</a>
+          <p></p>
+          <div id="social-media"> <a href="https://twitter.com/#!/helsell" id="twitter" target="_blank"><i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a> &nbsp; <a href="https://www.linkedin.com/company/101862" id="linkedin" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a> &nbsp; <a href="https://www.facebook.com/pages/Helsell-Fetterman/320135294701862" id="facebook" target="_blank"><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a> &nbsp; <a href="https://plus.google.com/107794444989367644756" id="googleplus" target="_blank"><i class="fa fa-2x fa-google-plus-square" aria-hidden="true"></i></a>
+          </div>
+         </div>
+         <div class="large-3 columns">
+          <div>
+           <h5>Proud LawPact Member</h5>
+           <p><a href="index.php?p=1079"><img src="https://www.helsell.com/wp-content/themes/helsell-4.1.0/assets/img/lawpact_logo.png"></a></p>
+          </div>
+          <div>
+           <h5>U.S. News - Best Lawyers<sup>©</sup></h5>
+           <p><a href="https://bestlawfirms.usnews.com/profile/helsell-fetterman-llp/overview/19834" target="_blank"><img src="https://www.helsell.com/wp-content/uploads/Best_Lawyers_2018.png"></a></p>
+          </div>
+         </div>
+         <div class="large-3 columns">
+          <h5>Stay Informed</h5>
+          <p>Subscribe to our newsletter offering insights into relevant legal issues.</p> <!-- Begin MailChimp Signup Form -->
+          <form action="//helsell.us14.list-manage.com/subscribe/post?u=8fe8b694e458f95487c393c5c&amp;id=67a30bb13b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate> <label for="mce-EMAIL" class="hide">Email Address </label>
+           <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email...">
+           <div class="response" id="mce-error-response" style="display:none"></div>
+           <div class="response" id="mce-success-response" style="display:none"></div>
+           <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_8fe8b694e458f95487c393c5c_67a30bb13b" tabindex="-1" value="">
+           </div>
+           <input type="submit" value="Subscribe" id="submit" name="subscribe" id="mc-embedded-subscribe" class="button small round">
+          </form> <!-- End signup form -->
+         </div>
+         <div class="large-3 columns">
+          <h5>Make a Payment</h5>
+          <div style="padding-bottom: 10px;"> <a href="https://secure.lawpay.com/pages/helsell/operating"> <img src="/wp-content/uploads/credit-cards.png"> </a>
+          </div> <a href="https://secure.lawpay.com/pages/helsell/operating" class="button small round" style="min-width: 120px">Pay</a>
+         </div> <!-- close .columns -->
+        </div> <!-- close .row -->
+       </div> <!-- close .columns -->
+      </div> <!-- close .row -->
+      <section id="super-footer">
+       <div class="row">
+        <div class="large-8 columns text-center large-text-left">
+         <p>Copyright © 2020 Helsell Fetterman · All Rights Reserved · A Limited Liability Partnership · <a href="https://www.helsell.com/disclaimer">Disclaimer</a></p>
+        </div> <!-- close .columns -->
+        <div class="large-4 columns text-center large-text-right">
+         <p>Website by <a href="https://www.facebook.com/CimaCreative/" target="_blank">Cima Creative</a></p>
+        </div> <!-- close .row -->
+       </div>
+      </section>
+     </footer> <a class="exit-off-canvas"></a>
+    </div>
+   </div>
+   <script type="text/javascript" src="https://www.helsell.com/wp-content/plugins/cresta-social-share-counter/js/jquery.cresta-social-effect.js"></script>
+   <script type="text/javascript" src="https://www.helsell.com/wp-content/themes/helsell-4.1.0/js/foundation.js"></script>
+   <script type="text/javascript" src="https://www.helsell.com/wp-includes/js/wp-embed.min.js"></script>
+  </div> <!-- close #page-wrap --> <!-- email disclaimer modal -->
+  <div style="opacity: 1; visibility: hidden; display: none;" role="dialog" aria-hidden="true" aria-labelledby="modalTitle" data-reveal="" class="reveal-modal" id="emailDisclaimerModal">
+   <h2 id="modalTitle">Email</h2>
+   <p class="">Thank you for your email, but please know that unsolicited information cannot be treated as confidential. Nor should you send us any sensitive or confidential information until we have cleared conflicts and you have received a written engagement agreement.</p>
+   <p>Helsell Fetterman's receipt of your email <span style="text-decoration: underline; font-weight: bold">does not</span> establish an attorney-client relationship.</p> <a href="#email" class="button button-emp round" id="emailDisclaimerHref">Continue</a> <a class="close-reveal-modal" aria-label="Close">×</a>
+  </div>
+  <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-12713701-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+  <script async src="https://storage.googleapis.com/widget.kenect.com/widget.min.js" id="kenect-token" type="text/javascript" token="lQ2PImHEkAJLxjiRHHKF"></script>
+ </body>
+</html>

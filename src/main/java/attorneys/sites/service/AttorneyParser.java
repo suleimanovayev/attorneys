@@ -1,5 +1,7 @@
 package attorneys.sites.service;
 
+import java.io.IOException;
+
 public interface AttorneyParser {
 
     String resolveName(String html);
@@ -12,7 +14,7 @@ public interface AttorneyParser {
 
     String resolveEducation(String html);
 
-    String[] resolveLocation(String html);
+    String resolveLocation(String html) throws IOException;
 
     String resolveBarAdmissions(String html);
 

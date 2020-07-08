@@ -1,6 +1,6 @@
 package attorneys.sites.gflegal;
 
-import attorneys.sites.constant.GflegalConstants;
+import attorneys.sites.gflegal.constant.GflegalConstants;
 import attorneys.sites.service.AttorneyParser;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -11,9 +11,10 @@ public class GflegalAttorneyParser implements AttorneyParser {
     @Override
     public String resolveBarAdmissions(String html) {
         Document document = Jsoup.parse(html);
-        return document.select(GflegalConstants.BAR_ADMISSIONS)
-                .get(0)
-                .text();
+//        return document.select(GflegalConstants.BAR_ADMISSIONS)
+//                .get(0)
+//                .text();
+        return "";
     }
 
     @Override
@@ -48,12 +49,12 @@ public class GflegalAttorneyParser implements AttorneyParser {
     }
 
     @Override
-    public String[] resolveLocation(String html) {
+    public String resolveLocation(String html) {
         Document document = Jsoup.parse(html);
-        return document.select(GflegalConstants.LOCATION)
-                .get(0)
-                .text()
-                .split(",");
+//        return document.select(GflegalConstants.LOCATION)
+//                .get(0)
+//                .text();
+        return "";
     }
 
     @Override
@@ -87,11 +88,5 @@ public class GflegalAttorneyParser implements AttorneyParser {
     public String resolveTitle(String html) {
         Document document = Jsoup.parse(html);
         return document.select(GflegalConstants.TITLE).text();
-    }
-
-    public static String resolveEmptyEducation(String html) {
-        Document document = Jsoup.parse(html);
-        return document.select(GflegalConstants.EMPTY_EDUCATION)
-                .text();
     }
 }

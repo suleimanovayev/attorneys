@@ -3,12 +3,10 @@ package attorneys.sites.model;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
-@NoArgsConstructor
 public class Attorney {
     private String biography;
     private String title;
-    private String[] locations;
+    private String locations;
     private String email;
     private String phone;
     private String fullBiography;
@@ -16,7 +14,7 @@ public class Attorney {
     private String barAdmissions;
     private String name;
 
-    public Attorney(String biography, String title, String[] locations, String email, String phone, String fullBiography, String education, String barAdmissions, String name) {
+    public Attorney(String biography, String title, String locations, String email, String phone, String fullBiography, String education, String barAdmissions, String name) {
         this.biography = biography;
         this.title = title;
         this.locations = locations;
@@ -47,11 +45,11 @@ public class Attorney {
         this.title = title;
     }
 
-    public String[] getLocations() {
+    public String getLocations() {
         return locations;
     }
 
-    public void setLocations(String[] locations) {
+    public void setLocations(String locations) {
         this.locations = locations;
     }
 

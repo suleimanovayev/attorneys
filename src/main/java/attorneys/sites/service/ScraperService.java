@@ -6,10 +6,11 @@ import java.util.List;
 
 
 public abstract class ScraperService {
+    protected AttorneyParser parser;
 
-    public abstract List<Attorney> loadAttorneys(String siteUrl, AttorneyParser parser);
+    public abstract List<Attorney> loadAttorneys(String siteUrl);
 
-    public abstract Attorney getAttorney(String html, AttorneyParser parser);
+    public abstract Attorney getAttorney(String html);
 
     public abstract List<String> findAllAttorneysLinks(String linkOfSite);
 }

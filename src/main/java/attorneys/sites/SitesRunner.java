@@ -26,7 +26,6 @@ public class SitesRunner {
                 .newFixedThreadPool(urls.size());
 
         List<List<Attorney>> attorneys = new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
         for (String url : urls) {
             ScraperService service = ScraperServiceFactory.getScrapperServiceInstance(url);
             Future<List<Attorney>> future = executorService.submit(new SiteThread(url));

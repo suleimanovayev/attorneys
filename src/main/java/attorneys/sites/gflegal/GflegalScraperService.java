@@ -16,11 +16,15 @@ import java.util.stream.Collectors;
 
 public class GflegalScraperService extends ScraperService {
 
-    public List<Attorney> loadAttorneys(String siteUrl, AttorneyParser parser) {
+    public GflegalScraperService() {
+        super.parser = new GflegalAttorneyParser();
+    }
+
+    public List<Attorney> loadAttorneys(String siteUrl) {
         List<Attorney> lawyers = new ArrayList<>();
         List<String> links = findAllAttorneysLinks(siteUrl);
         for (String link : links) {
-            Attorney attorney = getAttorney(link,parser);
+            Attorney attorney = getAttorney(link);
             lawyers.add(attorney);
             System.out.println(attorney);
 
@@ -28,7 +32,7 @@ public class GflegalScraperService extends ScraperService {
         return lawyers;
     }
 
-    public Attorney getAttorney(String html, AttorneyParser parser) {
+    public Attorney getAttorney(String html) {
         Attorney attorney = new Attorney();
         attorney.setName(parser.resolveName(html));
         attorney.setTitle(parser.resolveTitle(html));

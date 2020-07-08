@@ -1,5 +1,6 @@
 package attorneys.sites.service;
 
+import attorneys.sites.HtmlConverter;
 import attorneys.sites.model.Attorney;
 
 import java.io.IOException;
@@ -14,7 +15,8 @@ public abstract class ScraperService {
         List<Attorney> lawyers = new ArrayList<>();
         List<String> links = findAllAttorneysLinks(siteUrl);
         for (String link : links) {
-            Attorney attorney = getAttorney(link);
+            String html = HtmlConverter.getHtmlPage(link);
+            Attorney attorney = getAttorney(html);
             lawyers.add(attorney);
             System.out.println(attorney);
 

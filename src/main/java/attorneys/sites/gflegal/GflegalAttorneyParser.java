@@ -11,10 +11,8 @@ public class GflegalAttorneyParser implements AttorneyParser {
     @Override
     public String resolveBarAdmissions(String html) {
         Document document = Jsoup.parse(html);
-//        return document.select(GflegalConstants.BAR_ADMISSIONS)
-//                .get(0)
-//                .text();
-        return "";
+        return document.select(GflegalConstants.BAR_ADMISSIONS)
+                .text();
     }
 
     @Override
@@ -51,15 +49,14 @@ public class GflegalAttorneyParser implements AttorneyParser {
     @Override
     public String resolveLocation(String html) {
         Document document = Jsoup.parse(html);
-//        return document.select(GflegalConstants.LOCATION)
-//                .get(0)
-//                .text();
-        return "";
+        return document.select(GflegalConstants.LOCATION)
+                .text();
     }
 
     @Override
     public String resolveName(String html) {
         Document document = Jsoup.parse(html);
+        String j = document.select(GflegalConstants.NAME).text();
         return document.select(GflegalConstants.NAME).text();
     }
 

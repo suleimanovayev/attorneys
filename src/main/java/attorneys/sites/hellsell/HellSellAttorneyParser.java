@@ -11,8 +11,7 @@ public class HellSellAttorneyParser implements AttorneyParser {
     @Override
     public String resolveName(String html) {
         Document document = Jsoup.parse(html);
-//        return document.selectFirst(HellSellConstants.NAME).ownText();
-        return "";
+        return document.selectFirst(HellSellConstants.NAME).ownText();
     }
 
     @Override
@@ -24,9 +23,8 @@ public class HellSellAttorneyParser implements AttorneyParser {
     @Override
     public String resolvePhone(String html) {
         Document document = Jsoup.parse(html);
-//        String phone = document.selectFirst(HellSellConstants.PHONE).ownText();
-//        return phone.replaceAll("\\D+", "");
-        return "";
+        String phone = document.selectFirst(HellSellConstants.PHONE).ownText();
+        return phone.replaceAll("\\D+", "");
     }
 
     @Override

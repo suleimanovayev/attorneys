@@ -1,22 +1,10 @@
 
-package com.lawyers_scrapper.gflegal;
-
-import attorneys.sites.service.AttorneyAttributesParser;
-import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.io.IOUtils;
+import attorneys.sites.service.AttorneyParser;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-
-import static org.junit.Assert.*;
-
-@Slf4j
 public class GFLegalParserTest {
-    private AttorneyAttributesParser parser;
+    private AttorneyParser parser;
 
 
     @BeforeClass

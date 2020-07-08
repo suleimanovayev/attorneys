@@ -3,11 +3,9 @@ package attorneys.sites.model;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Arrays;
-
 @Data
 @NoArgsConstructor
-public abstract class Attorney {
+public class Attorney {
     private String biography;
     private String title;
     private String[] locations;

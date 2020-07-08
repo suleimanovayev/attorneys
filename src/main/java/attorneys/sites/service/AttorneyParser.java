@@ -1,8 +1,6 @@
 package attorneys.sites.service;
 
-public interface AttorneyAttributesParser {
-
-
+public interface AttorneyParser {
 
     String resolveName(String html);
 

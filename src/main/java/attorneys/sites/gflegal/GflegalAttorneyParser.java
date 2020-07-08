@@ -1,13 +1,13 @@
-package attorneys.sites.service.impl;
+package attorneys.sites.gflegal;
 
 import attorneys.sites.constant.GflegalConstants;
-import attorneys.sites.service.AttorneyAttributesParser;
+import attorneys.sites.service.AttorneyParser;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class GflegalAttributesParser implements AttorneyAttributesParser {
+public class GflegalAttorneyParser implements AttorneyParser {
     @Override
     public String resolveBarAdmissions(String html) {
         Document document = Jsoup.parse(html);

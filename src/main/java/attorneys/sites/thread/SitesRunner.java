@@ -14,18 +14,18 @@ import java.util.List;
 import java.util.concurrent.*;
 
 public class SitesRunner {
-    private static List<String> urls = Arrays.asList(
+    private static List<String> URLS = Arrays.asList(
             GflegalConstants.GFLEGAL_URL,
             HellSellConstants.HELL_SELL_URL
     );
 
     public void runSites() throws InterruptedException, ExecutionException {
         ExecutorService executorServiceSites = Executors
-                .newFixedThreadPool(urls.size());
+                .newFixedThreadPool(URLS.size());
         ExecutorService executorServiceAttorneys = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 
         List<Attorney> attorneys = new ArrayList<>();
-        for (String url : urls) {
+        for (String url : URLS) {
             Future<List<String>> future = executorServiceSites.submit(new SiteThread(url));
             List<String> links = future.get();
             for (String link : links) {

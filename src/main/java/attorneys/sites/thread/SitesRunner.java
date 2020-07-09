@@ -1,18 +1,17 @@
 package attorneys.sites.thread;
 
+import attorneys.sites.HtmlConverter;
 import attorneys.sites.gflegal.constant.GflegalConstants;
 import attorneys.sites.hellsell.constant.HellSellConstants;
 import attorneys.sites.factory.ScraperServiceFactory;
 import attorneys.sites.model.Attorney;
 import attorneys.sites.service.ScraperService;
+import org.omg.SendingContext.RunTime;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
 
 public class SitesRunner {
     private static List<String> urls = Arrays.asList(
@@ -21,15 +20,27 @@ public class SitesRunner {
     );
 
     public void runSites() throws InterruptedException, ExecutionException {
-        ExecutorService executorService = Executors
+        ExecutorService executorServiceSites = Executors
                 .newFixedThreadPool(urls.size());
+        ExecutorService executorServiceAttorneys = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 
-        List<List<Attorney>> attorneys = new ArrayList<>();
+        List<Attorney> attorneys = new ArrayList<>();
         for (String url : urls) {
-            Future<List<Attorney>> future = executorService.submit(new SiteThread(url));
-            List<Attorney> f = future.get();
-            attorneys.add(f);
+            Future<List<String>> future = executorServiceSites.submit(new SiteThread(url));
+            List<String> links = future.get();
+            for (String link : links) {
+                executorServiceAttorneys.submit(new Callable<Attorney>() {
+                    public Attorney call() throws Exception {
+                        String html = HtmlConverter.getHtmlPage(link);
+                        ScraperService service = ScraperServiceFactory.getScrapperServiceInstance(url);
+                        Attorney attorney = service.getAttorney(html);
+                        attorneys.add(attorney);
+                        return attorney;
+                    }
+                });
+            }
         }
-        executorService.shutdown();
+        executorServiceSites.shutdown();
+        executorServiceAttorneys.shutdown();
     }
 }

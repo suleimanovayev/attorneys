@@ -8,7 +8,7 @@ import attorneys.sites.service.ScraperService;
 import java.util.List;
 import java.util.concurrent.Callable;
 
-public class SiteThread implements Callable<List<Attorney>> {
+public class SiteThread implements Callable<List<String>> {
     private String urlOfSite;
 
     public SiteThread(String urlOfSite) {
@@ -16,9 +16,8 @@ public class SiteThread implements Callable<List<Attorney>> {
     }
 
     @Override
-    public List<Attorney> call() throws Exception {
-        String htmlOfSite = HtmlConverter.getHtmlPage(urlOfSite);
+    public List<String> call() throws Exception {
         ScraperService service = ScraperServiceFactory.getScrapperServiceInstance(urlOfSite);
-        return service.loadAttorneys(urlOfSite);
+        return service.findAllAttorneysLinks(urlOfSite);
     }
 }

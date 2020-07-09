@@ -1,23 +1,20 @@
-package attorneys.sites.hellsell;
+package attorneys.sites.kmcllaw;
 
 import attorneys.sites.service.AttorneyParser;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 
-public class HellSellAttorneyParser implements AttorneyParser {
-
-    public static final String HELL_SELL_URL = "https://www.helsell.com/our-team/";
-    public final static String NAME = "h1.entry-title";
-    public final static String TITLE = ".large-9.columns >h1 >small";
-    public final static String PHONE = ".meta";
-    public final static String MAIL = ".meta >a[class=confidentialEmail]";
-    public final static String LOCATION = ".meta >a:nth-child(2)";
-    public final static String EDUCATION = "#sidebar >article:nth-child(3) >ul";
-    public final static String BIOGRAPHY = "#english-language-content >p:first-of-type";
-    public final static String FULL_BIOGRAPHY = "#english-language-content >p";
-    public final static String PRACTICE_AREA = "#sidebar >article:nth-child(1) >ul >li";
-    public final static String BAR_ADMISSION = "#english-language-content >ul";
+public class KmcllawAttorneyParser implements AttorneyParser {
+    public static final String KMCLLAW_URL = "https://www.kmcllaw.com/attorneys/";
+    public static final String BAR_ADMISSIONS = ".fl-rich-text";
+    public static final String BIOGRAPHY = "div[data-node=5b06f8b5b3c7c] >div >div >div >div >p";
+    public static final String EDUCATION = ".fl-rich-text";
+    public static final String EMAIL = ".email-wrap";
+    public static final String LOCATION = ".uabb-second-heading-text";
+    public static final String NAME = ".fl-heading-text";
+    public static final String PHONE = ".phone-wrap";
+    public static final String PRACTICE_AREA = ".pp-accordion-content.fl-clearfix >p";
+    public static final String TITLE = NAME;
 
     @Override
     public String resolveName(String html) {
@@ -34,14 +31,13 @@ public class HellSellAttorneyParser implements AttorneyParser {
     @Override
     public String resolvePhone(String html) {
         Document document = Jsoup.parse(html);
-        String phone = document.selectFirst(PHONE).ownText();
-        return phone.replaceAll("\\D+", "");
+        return document.select(PHONE).text();
     }
 
     @Override
     public String resolveEmail(String html) {
         Document document = Jsoup.parse(html);
-        return document.select(MAIL).text();
+        return document.select(EMAIL).text();
     }
 
     @Override
@@ -53,22 +49,13 @@ public class HellSellAttorneyParser implements AttorneyParser {
     @Override
     public String resolveLocation(String html) {
         Document document = Jsoup.parse(html);
-        String vCard = document.select(LOCATION).attr("href");
-        String body = "";
-//        try {
-//            body = Jsoup.connect(vCard).get().text();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        return StringUtils.substringBetween(body, ":;;", ";WA;98154");
-        return body;
+        return document.select(LOCATION).text();
     }
 
     @Override
     public String resolveBarAdmissions(String html) {
         Document document = Jsoup.parse(html);
-        return document.select(BAR_ADMISSION).text();
-
+        return document.select(BAR_ADMISSIONS).text();
     }
 
     @Override
@@ -80,7 +67,7 @@ public class HellSellAttorneyParser implements AttorneyParser {
     @Override
     public String resolveFullBiography(String html) {
         Document document = Jsoup.parse(html);
-        return document.select(FULL_BIOGRAPHY).text();
+        return document.select(BIOGRAPHY).text();
     }
 
     @Override

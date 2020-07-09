@@ -28,11 +28,6 @@ public class GflegalScraperService extends ScraperService {
                 .collect(Collectors.toList());
     }
 
-    @Override
-    public String getMainLinkByAttorneyLink(String attorneyLink) {
-        return null;
-    }
-
     private void checkEducation(String education, String html) {
         if (education.isEmpty()) {
             education = resolveEmptyEducation(html);

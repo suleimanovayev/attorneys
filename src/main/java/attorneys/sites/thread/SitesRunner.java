@@ -1,14 +1,11 @@
 package attorneys.sites.thread;
 
 import attorneys.sites.HtmlConverter;
-import attorneys.sites.gflegal.GflegalAttorneyParser;
-import attorneys.sites.gflegal.constant.GflegalConstants;
-import attorneys.sites.hellsell.HellSellAttorneyParser;
-import attorneys.sites.hellsell.constant.HellSellConstants;
 import attorneys.sites.factory.ScraperServiceFactory;
+import attorneys.sites.gflegal.GflegalAttorneyParser;
+import attorneys.sites.hellsell.HellSellAttorneyParser;
 import attorneys.sites.model.Attorney;
 import attorneys.sites.service.ScraperService;
-import org.omg.SendingContext.RunTime;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,26 +22,69 @@ public class SitesRunner {
         ExecutorService executorServiceSites = Executors
                 .newFixedThreadPool(URLS.size());
         ExecutorService executorServiceAttorneys = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
-        Future<List<String>> futureSites = null;
+
+        List<Future<AttorneysLinksWrapper>> futureSites = new ArrayList<>();
+        List<Future<Attorney>> attorneysFutures = new ArrayList<>();
         List<Attorney> attorneys = new ArrayList<>();
+
         for (String url : URLS) {
-            futureSites = executorServiceSites.submit(new SiteThread(url));
+            futureSites.add(executorServiceSites.submit(new SiteThread(url)));
         }
 
-        List<String> links = futureSites.get();
-
-        for (String link : links) {
-            Future<Attorney> futureAttorney = executorServiceAttorneys.submit(new Callable<Attorney>() {
-                public Attorney call() throws Exception {
-                    String html = HtmlConverter.getHtmlPage(link);
-                    ScraperService service = ScraperServiceFactory.getScrapperServiceInstance(url);
-                    Attorney attorney = service.getAttorney(html);
-                    attorneys.add(attorney);
-                    return attorney;
-                }
-            });
+        for (Future<AttorneysLinksWrapper> future : futureSites) {
+            AttorneysLinksWrapper wrapper = future.get();
+            String siteUrl = wrapper.getSiteUrl();
+            List<String> links = wrapper.getUrls();
+            for (String attorneyLink : links) {
+                Future<Attorney> futureAttorney = executorServiceAttorneys.submit(new Callable<Attorney>() {
+                    public Attorney call() throws Exception {
+                        String html = HtmlConverter.getHtmlPage(attorneyLink);
+                        ScraperService service = ScraperServiceFactory.getScrapperServiceInstance(siteUrl);
+                        Attorney attorney = service.getAttorney(html);
+                        attorneys.add(attorney);
+                        return attorney;
+                    }
+                });
+                attorneysFutures.add(futureAttorney);
+            }
         }
+
+        for (Future<Attorney> future : attorneysFutures) {
+            Attorney attorney = future.get();
+            System.out.println(attorney);
+        }
+
         executorServiceSites.shutdown();
         executorServiceAttorneys.shutdown();
+    }
+}
+
+
+class AttorneysLinksWrapper {
+    String siteUrl;
+    List<String> urls;
+
+    public AttorneysLinksWrapper(String siteUrl, List<String> urls) {
+        this.siteUrl = siteUrl;
+        this.urls = urls;
+    }
+
+    public AttorneysLinksWrapper() {
+    }
+
+    public String getSiteUrl() {
+        return siteUrl;
+    }
+
+    public void setSiteUrl(String siteUrl) {
+        this.siteUrl = siteUrl;
+    }
+
+    public List<String> getUrls() {
+        return urls;
+    }
+
+    public void setUrls(List<String> urls) {
+        this.urls = urls;
     }
 }

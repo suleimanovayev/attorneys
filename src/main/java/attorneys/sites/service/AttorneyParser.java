@@ -22,7 +22,7 @@ public interface AttorneyParser {
 
     String resolveFullBiography(String html);
 
-    String[] resolvePracticeArea(String html);
+    String resolvePracticeArea(String html);
 
     String resolveRawEducation(String html);
 }

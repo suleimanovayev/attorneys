@@ -69,7 +69,6 @@ public class GflegalAttorneyParser implements AttorneyParser {
     @Override
     public String resolveName(String html) {
         Document document = Jsoup.parse(html);
-        String j = document.select(NAME).text();
         return document.select(NAME).text();
     }
 
@@ -81,10 +80,9 @@ public class GflegalAttorneyParser implements AttorneyParser {
     }
 
     @Override
-    public String[] resolvePracticeArea(String html) {
+    public String resolvePracticeArea(String html) {
         Document document = Jsoup.parse(html);
-        Elements areas = document.select(PRACTICE_AREA);
-        return areas.stream().map(Element::text).toArray(String[]::new);
+        return document.select(PRACTICE_AREA).text();
     }
 
     @Override

@@ -38,11 +38,11 @@ public abstract class ScraperService {
         attorney.setBarAdmissions(parser.resolveBarAdmissions(html));
         attorney.setFullBiography(parser.resolveFullBiography(html));
         attorney.setBiography(parser.resolveBiography(html));
+//        attorney.setPracticeArea(parser.resolvePracticeArea(html));
         String education = parser.resolveEducation(html);
         attorney.setEducation(education);
         return attorney;
     }
 
     public abstract List<String> findAllAttorneysLinks(String linkOfSite);
-    public abstract String getMainLinkByAttorneyLink(String attorneyLink);
 }

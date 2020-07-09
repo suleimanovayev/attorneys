@@ -1,8 +1,5 @@
 package attorneys.sites.model;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 public class Attorney {
     private String biography;
     private String title;
@@ -13,6 +10,7 @@ public class Attorney {
     private String education;
     private String barAdmissions;
     private String name;
+    private String[] practiceArea;
 
     public Attorney(String biography, String title, String locations, String email, String phone, String fullBiography, String education, String barAdmissions, String name) {
         this.biography = biography;
@@ -27,6 +25,14 @@ public class Attorney {
     }
 
     public Attorney() {
+    }
+
+    public void setPracticeArea(String[] practiceArea) {
+        this.practiceArea = practiceArea;
+    }
+
+    public String[] getPracticeArea() {
+        return practiceArea;
     }
 
     public String getBiography() {

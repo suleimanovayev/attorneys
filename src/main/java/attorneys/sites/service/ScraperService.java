@@ -11,6 +11,10 @@ import java.util.List;
 public abstract class ScraperService {
     protected AttorneyParser parser;
 
+    public ScraperService(AttorneyParser parser) {
+        this.parser = parser;
+    }
+
     public List<Attorney> loadAttorneys(String siteUrl) throws IOException {
         List<Attorney> lawyers = new ArrayList<>();
         List<String> links = findAllAttorneysLinks(siteUrl);
@@ -40,4 +44,5 @@ public abstract class ScraperService {
     }
 
     public abstract List<String> findAllAttorneysLinks(String linkOfSite);
+    public abstract String getMainLinkByAttorneyLink(String attorneyLink);
 }

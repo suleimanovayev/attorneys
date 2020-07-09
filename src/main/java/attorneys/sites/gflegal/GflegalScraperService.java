@@ -1,7 +1,7 @@
 package attorneys.sites.gflegal;
 
 import attorneys.sites.HtmlConverter;
-import attorneys.sites.gflegal.constant.GflegalConstants;
+import attorneys.sites.service.AttorneyParser;
 import attorneys.sites.service.ScraperService;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
@@ -11,18 +11,26 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class GflegalScraperService extends ScraperService {
+    public static final String ALL_ATTORNEYS_LINKS = "ul >li[itemtype='http://schema.org/Person'] >a";
+    public static final String EMPTY_EDUCATION = "div.attorneyProfileNarrative, strong:contains(Education:) + ul li";
 
-    public GflegalScraperService() {
-        super.parser = new GflegalAttorneyParser();
+    public GflegalScraperService(AttorneyParser parser) {
+        super(parser);
     }
+
 
     public List<String> findAllAttorneysLinks(String linkOfSite) {
         String html = HtmlConverter.getHtmlPage(linkOfSite);
         Document document = Jsoup.parse(html);
-        return document.select(GflegalConstants.ALL_ATTORNEYS_LINKS).stream()
+        return document.select(ALL_ATTORNEYS_LINKS).stream()
                 .map(attorney -> StringUtils.substringBeforeLast(linkOfSite, "/")
                         + attorney.attr("href"))
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public String getMainLinkByAttorneyLink(String attorneyLink) {
+        return null;
     }
 
     private void checkEducation(String education, String html) {
@@ -33,7 +41,7 @@ public class GflegalScraperService extends ScraperService {
 
     public static String resolveEmptyEducation(String html) {
         Document document = Jsoup.parse(html);
-        return document.select(GflegalConstants.EMPTY_EDUCATION)
+        return document.select(EMPTY_EDUCATION)
                 .text();
     }
 }

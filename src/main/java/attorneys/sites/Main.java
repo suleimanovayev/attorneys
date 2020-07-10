@@ -15,10 +15,9 @@ public class Main {
         KutakRockAttorneyParser sell = new KutakRockAttorneyParser();
         KutakRockScraperService service = new KutakRockScraperService(sell);
         List<String> links = service.findAllAttorneysLinks("https://www.kutakrock.com/");
-        SeleniumService.loadDriver();
 
         for (String link : links) {
-            String html = HtmlConverter.getHtmlPage(link);
+            String html = HtmlConverter.getHtmlPageFromJsoup(link);
 //            System.out.println(sell.resolveName(html));
 //            System.out.println(sell.resolveTitle(html));
 //            System.out.println(sell.resolvePhone(html));

@@ -38,7 +38,7 @@ public class SitesRunner {
             for (String attorneyLink : links) {
                 Future<Attorney> futureAttorney = executorServiceAttorneys.submit(new Callable<Attorney>() {
                     public Attorney call() throws Exception {
-                        String html = HtmlConverter.getHtmlPage(attorneyLink);
+                        String html = HtmlConverter.getHtmlPageFromJsoup(attorneyLink);
                         ScraperService service = ScraperServiceFactory.getScrapperServiceInstance(siteUrl);
                         Attorney attorney = service.getAttorney(html);
                         attorneys.add(attorney);

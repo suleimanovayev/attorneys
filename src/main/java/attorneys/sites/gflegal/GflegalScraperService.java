@@ -20,7 +20,7 @@ public class GflegalScraperService extends ScraperService {
 
 
     public List<String> findAllAttorneysLinks(String linkOfSite) {
-        String html = HtmlConverter.getHtmlPage(linkOfSite);
+        String html = HtmlConverter.getHtmlPageFromJsoup(linkOfSite);
         Document document = Jsoup.parse(html);
         return document.select(ALL_ATTORNEYS_LINKS).stream()
                 .map(attorney -> StringUtils.substringBeforeLast(linkOfSite, "/")

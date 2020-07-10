@@ -20,7 +20,7 @@ public class KaplanriceScraperService extends ScraperService {
 
     @Override
     public List<String> findAllAttorneysLinks(String linkOfSite) {
-        String html = HtmlConverter.getHtmlPage(linkOfSite);
+        String html = HtmlConverter.getHtmlPageFromJsoup(linkOfSite);
         Document document = Jsoup.parse(html);
         return document.select(ALL_ATTORNEYS_LINKS).stream()
                 .map(attorney -> StringUtils.substringBeforeLast(KMCLLAW_URL, "lawyers") + attorney.attr("href"))

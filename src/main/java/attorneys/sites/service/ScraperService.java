@@ -19,7 +19,7 @@ public abstract class ScraperService {
         List<Attorney> lawyers = new ArrayList<>();
         List<String> links = findAllAttorneysLinks(siteUrl);
         for (String link : links) {
-            String html = HtmlConverter.getHtmlPage(link);
+            String html = HtmlConverter.getHtmlPageFromJsoup(link);
             Attorney attorney = getAttorney(html);
             lawyers.add(attorney);
             System.out.println(attorney);

@@ -18,7 +18,7 @@ public class HellSellScrapperService extends ScraperService {
 
     @Override
     public List<String> findAllAttorneysLinks(String linkOfSite) {
-        String html = HtmlConverter.getHtmlPage(linkOfSite);
+        String html = HtmlConverter.getHtmlPageFromJsoup(linkOfSite);
         Document document = Jsoup.parse(html);
         return document.select(ALL_ATTORNEY_LINKS).stream().map(attorney -> attorney.attr("href"))
                 .collect(Collectors.toList());

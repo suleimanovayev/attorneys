@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class HtmlConverter {
 
-    public static String getHtmlPage(String link) {
+    public static String getHtmlPageFromJsoup(String link) {
         try {
             return Jsoup.connect(link).get().html();
         } catch (IOException e) {
@@ -14,4 +14,9 @@ public class HtmlConverter {
         }
         return null;
     }
+
+//    public static String getJsoupPageFromSelenium(String link) {
+//
+//    }
+
 }

@@ -42,42 +42,42 @@ public class KaplanriceAttorneyParser implements AttorneyParser {
 
     @Override
     public String resolveEmail(String html) {
-        return null;
+        return "";
     }
 
     @Override
     public String resolveEducation(String html) {
-        return null;
+        return "";
     }
 
     @Override
-    public String resolveLocation(String html) throws IOException {
-        return null;
+    public String resolveLocation(String html)  {
+        return "";
     }
 
     @Override
     public String resolveBarAdmissions(String html) {
-        return null;
+        return "";
     }
 
     @Override
     public String resolveBiography(String html) {
-        return null;
+        return "";
     }
 
     @Override
     public String resolveFullBiography(String html) {
-        return null;
+        return "";
     }
 
     @Override
     public String resolvePracticeArea(String html) {
-        return null;
+        return "";
     }
 
     @Override
     public String resolveRawEducation(String html) {
-        return null;
+        return "";
     }
 
 
